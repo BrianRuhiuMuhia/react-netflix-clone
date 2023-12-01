@@ -2,6 +2,7 @@ import tv from "../images/tv.png"
 import imageOne from "../images/mobile-0819.jpg"
 import imageTwo from "../images/device-pile-ke.png"
 import imageThree from "../images/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png"
+import Modals from "./Modals"
 export default function Main()
 {
     return (
@@ -44,6 +45,7 @@ export default function Main()
     </div>
 </div>
 </div>     
+<Modals/>
             </div>
     )
 }
