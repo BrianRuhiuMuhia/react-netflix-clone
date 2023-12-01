@@ -137,7 +137,12 @@ ul li{
   justify-content: space-between;
   
 }
-.accordion-content{
-  
-
+@media screen and (max-width:600px) {
+  .content{
+    flex-direction: column;
+    justify-content: center;
+    height:auto;
+    text-align: center;
+   
+  }
 }
